@@ -1,7 +1,7 @@
 import discord
 import requests
 
-TOKEN = 'ODI0NTM3MTEwNDgwMjg5ODAz.YFw0Bg.fTt7clavVHEUtT54cCd1NL8i74w'
+TOKEN = 'TOKEN'
 client = discord.Client()
 
 
