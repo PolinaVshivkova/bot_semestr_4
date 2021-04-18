@@ -56,7 +56,7 @@ def horoscope(sign, dat):
 
 def main():
     vk_session = vk_api.VkApi(
-        token="7d3359a00a09fca1ad2da3ec46cb56a89b84ad26573381510da0a1cb4de640b6e4de4b43f1ddb010d5d60")
+        token="TOKEN")
     vk = vk_session.get_api()
 
     longpoll = VkBotLongPoll(vk_session, '204057199')
